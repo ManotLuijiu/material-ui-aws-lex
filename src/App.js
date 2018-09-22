@@ -5,6 +5,7 @@ import './App.css';
 import NavBar2 from './components/NavBar2';
 import New from './components/New';
 import New2 from './components/New2';
+import ChatBot from './components/ChatBot';
 
 class App extends Component {
 	render() {
@@ -14,6 +15,7 @@ class App extends Component {
 				<NavBar2 />
 				<New />
 				<New2 />
+				<ChatBot />
 			</div>
 		);
 	}

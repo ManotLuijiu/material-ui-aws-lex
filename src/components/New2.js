@@ -10,7 +10,8 @@ import Paper from '@material-ui/core/Paper';
 
 const styles = theme => ({
 	root: {
-		flexGrow: 1
+		flexGrow: 1,
+		padding: theme.spacing.unit * 2
 	},
 	paper: {
 		height: 140,

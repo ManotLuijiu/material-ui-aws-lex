@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
-
+// import { withStyles } from '@material-ui/core/styles';
 import { Interactions } from 'aws-amplify';
 import { ChatFeed, Message } from 'react-chat-ui';
+
+// const styles = theme => ({
+// 	root: {
+// 		flexGrow: 1,
+// 		padding: theme.spacing.unit * 2
+// 	}
+// });
 
 class ChatBot extends Component {
 	state = {
